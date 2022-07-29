@@ -13,13 +13,17 @@
                 src="{{ contact_icon_path }}"
                 alt="{{ contact.name | downcase }}"
               />
-              <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
-                {% if contact.value and contact.value != "" and contact.value != nil %}
-                  {{ contact.value }}
-                {% else %}
-                  {{ contact.name }}
-                {% endif %}
-              </a>
+              {% if contact.link != "none" %}
+                <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
+                  {% if contact.value and contact.value != "" and contact.value != nil %}
+                    {{ contact.value }}
+                  {% else %}
+                    {{ contact.name }}
+                  {% endif %}
+                </a>
+              {% else %}
+                 {{ contact.value }}
+              {% endif %}
             </div>
 
           {% endfor %}
