@@ -24,7 +24,6 @@ footer:
       link: mailto:yourmail@domain.com
     - name: Telefon
       value: 0124 567890
-      link: ""
   follow:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
