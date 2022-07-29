@@ -6,28 +6,11 @@ profile_picture:
 ---
 
 <p>
-  Das ist die Website der Mediation Friedrichshain.
+  Das ist die Website der Mediation Friedrichshain. Sie ist derzeit noch im Aufbau – bitte noch nicht teilen.
 </p>
   
-# Überschrift 1
+## Mediatorin Lisa K.
 
-Text text **bold text**
+Profil mit Werdegang, Erfahrung, etc.
 
-## Überschrift 2
-
-Text *kursiv text* text
-
-### Überschrift 3
-
-***fett-kursiv*** text.
-
-#### Überschrift 4
-
-Normaler Text
-
-##### Überschrift 5
-
-Normaler text.
-> Zitat text
-  
 
