@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Leistungen
-slug: /work
+slug: /leistungen
 items:
   - title: Mediation
     image:
