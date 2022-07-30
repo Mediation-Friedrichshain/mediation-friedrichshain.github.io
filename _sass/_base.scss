@@ -29,7 +29,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  font-weight: 400;
+  font-weight: Regular;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -99,7 +99,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: Bold;
   font-family: $base-font-family;
 }
 
