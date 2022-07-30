@@ -6,11 +6,11 @@ layout: default
 
 ### Angaben gemäß § 5 TMG
 
-Lisa Kempf
-Mediation Lisa Kempf
-Warschauer Straße 26
+Lisa Kempf<br>
+Mediation Lisa Kempf<br>
+Warschauer Straße 26<br>
 10243 Berlin
 
 ### Kontakt
-Telefon: ___
+Telefon: ___<br>
 E-Mail: ___
