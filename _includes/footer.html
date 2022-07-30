@@ -22,7 +22,7 @@
                   {% endif %}
                 </a>
               {% else %}
-                    {{ contact.value }}
+                <div>{{ contact.value }}</div>
               {% endif %}
             </div>
 
@@ -30,13 +30,8 @@
         </div>
       </div>
 
-      <div class="footer-col footer-col-2">
-
-
-      </div>
-
       {% if site.footer.show_powered_by == true %}
-        <div class="footer-col footer-col-3 powered-by">
+        <div class="footer-col footer-col-2 powered-by">
           <p>
             Design nach <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
           </p>
