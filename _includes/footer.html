@@ -32,20 +32,19 @@
 
       <div class="footer-col footer-col-2">
 
-        <div class="social-links follow-links">
-          <div class="social-link">
-            <a href="/impressum">Impressum</a>
-          </div>
-          <div class="social-link">
-            <a href="/datenschutz">Datenschutz</a>
-          </div>
-        </div>
+
       </div>
 
       {% if site.footer.show_powered_by == true %}
         <div class="footer-col footer-col-3 powered-by">
           <p>
             Design nach <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
+          </p>
+          <p>
+            <a href="/impressum">Impressum</a>
+          </p>
+          <p>
+            <a href="/datenschutz">Datenschutz</a>
           </p>
         </div>
       {% endif %}
