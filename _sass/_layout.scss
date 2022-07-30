@@ -5,12 +5,12 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: 78px;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 
   @include media-query($on-mobile) {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   // Positioning context for the mobile navigation icon
@@ -24,7 +24,7 @@
   float: left;
 
   img {
-    height: 56px;
+    height: 78px;
   }
 
   &,
