@@ -4,10 +4,36 @@
 
 @charset "utf-8";
 
+// Montserrat fonts (see license at assets/fonts/OFL.txt)
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: Regular;
+  src: url('assets/fonts/Montserrat-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: Regular;
+  src: url('assets/fonts/Montserrat-Italic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: Bold;
+  src: url('assets/fonts/Montserrat-Bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: Bold;
+  src: url('assets/fonts/Montserrat-BoldItalic.ttf')  format('truetype');
+}
+
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-$base-font-family: Helvetica, Arial, "Open Sans", sans-serif;
+$base-font-family: "Montserrat", Helvetica, Arial, sans-serif;
 $base-font-size: 15px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;
