@@ -127,6 +127,7 @@
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  padding-right: $spacing-unit / 2;
 }
 
 .footer-col-1,
@@ -142,7 +143,7 @@
 .powered-by {
   /* font-size: 13px !important; */
   color: $grey-color;
-  text-align: right;
+  float: right;
 }
 
 @include media-query($on-mobile) {
