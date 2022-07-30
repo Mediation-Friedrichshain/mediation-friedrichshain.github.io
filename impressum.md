@@ -2,7 +2,7 @@
 layout: default
 ---
 
-*** Im Aufbau ***
+***Im Aufbau***
 
 ### Angaben gemäß § 5 TMG
 
@@ -12,5 +12,5 @@ Warschauer Straße 26<br>
 10243 Berlin
 
 ### Kontakt
-Telefon: ___<br>
-E-Mail: ___
+Telefon: ---<br>
+E-Mail: --- 
