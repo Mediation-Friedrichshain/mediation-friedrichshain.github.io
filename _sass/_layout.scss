@@ -142,7 +142,7 @@
 .powered-by {
   /* font-size: 13px !important; */
   color: $grey-color;
-  text-align: center;
+  text-align: right;
 }
 
 @include media-query($on-mobile) {
